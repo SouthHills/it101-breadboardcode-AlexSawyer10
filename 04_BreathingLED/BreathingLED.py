@@ -1,7 +1,8 @@
 from gpiozero import PWMLED
 import time
 
-LED = PWMLED(18)  # define PWMLED
+LED1 = PWMLED(18)  # define PWMLED
+LED2 = PWMLED(16)
 
 def loop():
     global LED
