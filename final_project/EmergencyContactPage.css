@@ -1,0 +1,78 @@
+.titleFlex
+{
+    font-size: 80;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.background
+{
+    background-color: red;
+}
+
+.whiteBackground
+{
+    color: white;
+}
+
+.policeDepartmentBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 732px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    text-align: center;
+    place-self: center;
+}
+.fireDepartmentBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 964px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    place-self: center;
+}
+
+.medicalDepartmentBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 777px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    place-self: center;
+
+}
+
+.neighborBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 838px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    display: grid;
+    place-self: center;
+}
+.generalUseBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 548px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    place-self: center;
+}
+
+.parentUseBox
+{
+    border: 10px solid black;
+    padding: 20px;
+    width: 776px;
+    font-size: 50px;
+    overflow-wrap: break-word;
+    place-self: center;
+}

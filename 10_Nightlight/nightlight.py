@@ -35,7 +35,8 @@ def loop():
         voltage = value / 255.0 * 3.3
         print (f'ADC Value: {value} \tVoltage: {voltage:.2f} \tLED Value: {LED.value:.2f}')
         time.sleep(0.01)
-
+        
+        
 def destroy():
     global ADC, LED
     ADC.close()
